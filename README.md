@@ -1,0 +1,1 @@
+A simple daily schedule planner made as a part of JS practice.

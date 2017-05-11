@@ -1,0 +1,23 @@
+#main {
+	width: 502px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+#title {
+	text-align: center;
+}
+
+#html_logger {
+	text-align: center;
+	max-height: 420px;
+	max-width: 502px;
+	overflow: auto;
+	font-size: 1.2em;
+}
+
+#addButton, #clearButton {
+	display: inline-block;
+	position: relative;
+	left: 135px;
+}
