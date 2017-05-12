@@ -17,6 +17,12 @@ function addNewTask (time, task) {
 	console.log(time + '  ---  ' + task + '<hr>');
 };
 
+var dateButton = document.querySelector('div > button#dateButton');
+dateButton.onclick = function () {
+	document.getElementById("date").innerHTML = Date();
+};
+
+
 var addButton = document.querySelector('div > button#addButton');
 addButton.onclick = function () {
 	var userInput = prompt("Insert time frame for new task", "00:00");

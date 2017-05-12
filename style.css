@@ -1,7 +1,12 @@
 #main {
-	width: 502px;
 	margin: 0 auto;
 	border: 1px solid black;
+	min-width: 376px;
+	background: #ddd;
+}
+
+body {
+	background: black;
 }
 
 #title {
@@ -11,13 +16,21 @@
 #html_logger {
 	text-align: center;
 	max-height: 420px;
-	max-width: 502px;
 	overflow: auto;
 	font-size: 1.2em;
+	background: white;
 }
 
-#addButton, #clearButton {
+#date {
+	text-align: center;
+}
+
+#buttons {
+	width: 370px;
+	display: block;
+	margin: 0 auto;
+}
+
+#addButton, #clearButton, #dateButton {
 	display: inline-block;
-	position: relative;
-	left: 135px;
 }
