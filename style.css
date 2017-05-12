@@ -11,18 +11,23 @@ body {
 
 #title {
 	text-align: center;
+	font-family: 'Playfair Display', serif;
+	text-decoration: underline;
 }
 
 #html_logger {
 	text-align: center;
 	max-height: 420px;
 	overflow: auto;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	background: white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	padding: 5px;
 }
 
 #date {
 	text-align: center;
+	color: green;
 }
 
 #buttons {
@@ -30,6 +35,9 @@ body {
 	display: block;
 	margin: 0 auto;
 	min-width: 272px;
+	padding-left: 40px;
+	left: -20px;
+	position: relative;
 }
 
 #addButton, #clearButton, #dateButton {
