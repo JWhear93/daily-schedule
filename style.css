@@ -1,7 +1,7 @@
 #main {
 	margin: 0 auto;
 	border: 1px solid black;
-	min-width: 376px;
+	min-width: 272px;
 	background: #ddd;
 }
 
@@ -26,9 +26,10 @@ body {
 }
 
 #buttons {
-	width: 370px;
+	max-width: 370px;
 	display: block;
 	margin: 0 auto;
+	min-width: 272px;
 }
 
 #addButton, #clearButton, #dateButton {
