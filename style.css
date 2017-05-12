@@ -3,6 +3,7 @@
 	border: 1px solid black;
 	min-width: 272px;
 	background: #ddd;
+	max-width: 1000px;
 }
 
 body {
