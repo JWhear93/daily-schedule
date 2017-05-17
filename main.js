@@ -13,14 +13,8 @@
 })();
 ////        END
 
-if (typeof(Storage) !== "undefined") {
-    console.log(localStorage.time + '  ---  ' + localStorage.task + '<hr>');
-}
-
 function addNewTask (time, task) {
-	localStorage.setItem('time', time);
-	localStorage.setItem('task', task);
-	console.log(localStorage.time + '  ---  ' + localStorage.task + '<hr>');
+	console.log(time + '  ---  ' + task + '<hr>');
 };
 
 var dateButton = document.querySelector('div > button#dateButton');
@@ -34,10 +28,4 @@ addButton.onclick = function () {
 	var userInput = prompt("Insert time frame for new task", "00:00");
 	var secondUserInput = prompt("Insert name for new task", "unnamed");
 	addNewTask(userInput, secondUserInput);
-};
-
-var clearButton = document.querySelector('div > button#clearButton');
-clearButton.onclick = function () {
-	localStorage.removeItem("time");
-	localStorage.removeItem("task");
 };
